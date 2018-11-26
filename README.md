@@ -11,4 +11,6 @@ Two agents control rackets to bounce a ball over a net. If an agent hits the bal
 
 ## Instructions
 
-```pip -q install ./python```
+Within the python subdirectory, run:
+
+```pip install -r requirements.txt```
