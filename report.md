@@ -23,7 +23,7 @@ The team above summarized their work in this way:
 ## Learning Algorithm
 
 Here are some additional details of the application of the algorithm to this project.
-* During training the overall simulation is limted to 500 episodes of a maximum of 1000 time steps.  During each step the states, actions, rewards, next_states, and dones are added to a fixed size replay buffer.
+* During training the overall simulation is limted to 5000 episodes of a maximum of 2000 time steps.  During each step the states, actions, rewards, next_states, and dones are added to a fixed size replay buffer.
 * The project contains both a critic and and actor models.
     * The actor (policy) network maps states to actions.
     * The critic (value) network that maps (state, action) pairs to Q-values.
