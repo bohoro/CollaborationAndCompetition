@@ -48,7 +48,7 @@ env_info = env.reset(train_mode=False)[brain_name]  # reset the environment
 states = env_info.vector_observations  # get the current state (for each agent)
 scores = np.zeros(num_agents)  # initialize the score (for each agent)
 time.sleep(3)
-for _ in range(1000):
+for _ in range(500):
     actions = agent.act(states, add_noise=False)
     env_info = env.step(actions)[brain_name]  # send all actions to the env
     next_states = env_info.vector_observations  # get next state for each agent
